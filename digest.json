@@ -1,0 +1,150 @@
+{	
+	"digestTitle": "Frontend Digest #22",
+	"titleImg": "C:\/Users\/Egor\/projects\/frontendDigest\/img\/main_logo.png",
+	
+	"people": {
+		"title": "Антон Немцев",
+		"img": "###",
+		"about": "Независимый фронтенд-разработчик с опытом работы около 14 лет. Антон – постоянный докладчик на WSD (Web Standards Days), выступает на всём постсоветском пространстве. В интернете можно найти много видео с его выступлений. Также он является представителем сообщества «Веб-стандарты» в Украине. Антон - профессиональный верстальщик. Участвовал в разработке проектов для таких брендов как Parallels, Groupon, Camel, Winstone, Kinder, Kent, Lays и многих других.Антон Немцев - создатель электронного журнала  <a href=\"frontender.info\">frontender.info</a>"
+	},
+
+	"blocks": [
+	{
+		"title": "CSS",
+		"articles": [
+			{
+				"title": "Новый дизайн Can I Use",
+				"url": "http://caniuse.com/",
+				"text": "Обновился дизайн одного из самых известных и авторитетных ресурсов по подборке совместимостей тех или иных свойств в различных браузерах, в том числе и мобильных. Конечно, что может быть авторитетнее W3C, но как же все-таки удобно им пользоваться, и так быстро можно получить ответ на вопрос, могу ли я использовать flex-box и в каких браузерах?"	
+			},
+			{
+				"title": "Mix-blend-mode в CSS3",
+				"url": "http://blogs.adobe.com/webplatform/2014/07/09/fade-transition-effects-using-blend-modes/",
+				"text": "Хотим вас познакомить с новыми экспериментальными эффектами, которые пока лишь доступны в последних браузерах типа Chrome 35, Firefox 30 и Opera 22, и то со специальным флагом. Речь пойдет о вариациях на тему Fading effects, ведь до сегодняшнего дня мы могли только уныло пересчитывать свойства opacity у необходимого элемента, но судя по всему, скоро нам станут доступны свойства mix-blend-mode, для реализации максимально гибких настроек у fading эффектов. *Убедитесь что у вас активирован следующий флаг chrome://flags/#enable-experimental-web-platform-features"	
+			},
+			{
+				"title": "Шпаргалка по transitions",
+				"url": "http://easings.net/ru",
+				"text": "С приходом transitions в CSS3 мы начали делать наши интерфейсы плавными. Теперь, различные выпадающие менюшки и всплывающие окна не просто появляются и исчезают, а умеют это делать максимально плавно. Чтобы не запутаться во всем многообразии различных анимаций, а также иметь под рукой удобный интерактивный справочник и шпаргалку в одном экземпляре, рекомендуем не пропустить данную ссылку."	
+			}				
+		]
+	},
+	{
+		"title": "User Expirience",
+		"articles": [
+			{
+				"title": "The software design trends that we love to hate",
+				"url": "http://arstechnica.com/gadgets/2014/07/the-software-design-trends-that-we-love-to-hate/",
+				"text": "4 спорные тенденции в дизайне интерфейсов: — «невидимые» кнопки — снижение плотности информации — злоупотребление полупрозрачностью — «капитель» — заголовки из всех прописных"	
+			},
+			{
+				"title": "«Direct Access vs. Sequential Access: Definition»",
+				"url": "http://www.nngroup.com/articles/direct-vs-sequential-access/",
+				"text": "Статья про прямой и последовательный доступ к информации в интерфейсах. Примером последовательного доступа может послужить обычная книга: человек, читая страницу за страницей, получает доступ к информации последовательно. Ссылки же на сайте являются примером прямого доступа: чтобы получить доступ к тому или иному контенту, нам не надо листать все страницы сайта, достаточно просто нажать на нужную ссылку. В статье автор рассказывает про минусы использования «традиционного» последовательного подхода в современных интерфейсах (например, о роликах с инструкциями: пользователь смотрит все N видео, чтобы добраться до совсем, порой, небольшого куска нужной ему информации) и способы решения создаваемых этим подходом проблем. "	
+			},
+			{
+				"title": "Digital Dashboards: Strategic & Tactical: Best Practices, Tips, Examples",
+				"url": "http://www.kaushik.net/avinash/digital-dashboards-strategic-tactical-best-practices-tips-examples/",
+				"text": "Информационный дизайн. Концептуальный подход к проектированию информационных панелей (дашбордов), Avinash Kaushik"	
+			}				
+		]
+	},
+	{
+		"title": "Intresting",
+		"articles": [
+			{
+				"title": "Обучающие ресурсы в одном месте",
+				"url": "http://www.bento.io/",
+				"text": "Ресурс с подборкой материала для изучения веб-технологий и не только. Он содержит ссылки на обучаеющие материалы по фронтенду, бекенду, базам данных, API и многому другому"	
+			},
+			{
+				"title": "12 Extensions and Apps that Fill the Gaps in Chrome DevTools",
+				"url": "http://developer.telerik.com/featured/12-extensions-apps-fill-gaps-devtools/?utm_source=html5weekly&utm_medium=email",
+				"text": "Многие из нас пользуются Chrome DevTools в качестве дебагинга наших веб приложений, но бывает так что чего то не хватает для полного погружения в разработку. Автор предложил дюжину экстеншенов, которые по его мнению способны облегчить нам жизнь."	
+			},
+			{
+				"title": "Create high-performance mobile UIs with Famo.us",
+				"url": "http://www.ibm.com/developerworks/library/wa-famous/index.html?utm_source=mobilewebweekly&utm_medium=email",
+				"text": "На прошедшем митапе 4front спикер делился своими впечатлениями от Famo.us, автор статьи же предлагает углубится в пучины создания мобильных интерфейсов при помощи Famo.us"	
+			}				
+		]
+	}
+	],
+	"links": {
+		"title": "Links",
+		"articles": [
+			{
+				"title": "Несколько интересностей и полезностей для веб-разработчика",
+				"url": "http://habrahabr.ru/post/230405/"
+			},
+			{
+				"title": ">> Полезные материалы для мобильного разработчика",
+				"url": "http://habrahabr.ru/post/230455/"
+			},
+			{
+				"title": ">> Дайджест интересных новостей и материалов из мира PHP",
+				"url": "http://habrahabr.ru/company/zfort/blog/230481/"
+			},
+			{
+				"title": ">> 18 неожиданностей при чтении исходного кода jQuery",
+				"url": "http://habrahabr.ru/post/230449/"
+			},
+			{
+				"title": ">> Node.js Perfomance: Managing Garbage Collection",
+				"url": "http://strongloop.com/strongblog/node-js-performance-garbage-collection/?utm_source=nodeweekly&utm_medium=email"
+			},
+			{
+				"title": ">> 11 Great JavaScript Interview Questions",
+				"url": "http://www.toptal.com/javascript/interview-questions?utm_source=javascriptweekly&utm_medium=email"
+			},
+			{
+				"title": ">> Performance of Canvas vs SVG",
+				"url": "http://smus.com/canvas-vs-svg-performance/"
+			},
+			{
+				"title": ">> Reusable JavaScript MVC frameworks",
+				"url": "http://smus.com/reusable-js-mvc-frameworks/"
+			}			
+		]
+	},
+
+
+
+
+	"footer": {
+		"title": "Над проектом трудились:",
+		"team": [
+			{
+				"whoIs": "Координатор проекта - ",
+				"name": "Siarhei Mikhailau",
+				"email": "mailto:Siarhei_Mikhailau@epam.com"
+			},
+			{
+				"whoIs": "Рубрика CSS - ",
+				"name": "Andrei Ivashkevich",
+				"email": "mailto:Andrei_Ivashkevich@epam.com"
+			},
+			{
+				"whoIs": "Рубрика User Expirience - ",
+				"name": "Kira Bozhkova",
+				"email": "mailto:Kira_Bozhkova@epam.com"
+			},
+			{
+				"whoIs": "Рубрика Intresting & Links - ",
+				"name": "Egor Miasnikov",
+				"email": "mailto:Egor_Miasnikov@epam.com"
+			},
+			{
+				"whoIs": "Main logo - ",
+				"name": "Aliaksandr Hudkou",
+				"email": "mailto:Aliaksandr_Hudkou@epam.com"
+			},
+			{
+				"whoIs": "Email templater - ",
+				"name": "Ihar Daineka",
+				"email": "mailto:Ihar_Daineka@epam.com"
+			}
+		]
+	} 
+}
+

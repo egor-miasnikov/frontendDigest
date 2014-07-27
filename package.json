@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "grunt": "~0.4.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-jade": "^0.12.0"
+  }
+}
