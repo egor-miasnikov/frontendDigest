@@ -6,11 +6,11 @@ module.exports = function(grunt) {
 
     	jade: {
     		compile: {
-    			options: {
-    				data: function (dest, src) {
-    					return require('./digest.json')
-    				}
-    			},
+                options: {
+                    client: false,
+                    pretty: true,
+                    data: grunt.file.readJSON("digest.json")
+                },
     			files: {
     				"digest.html": ["digest.jade"]
     			}
