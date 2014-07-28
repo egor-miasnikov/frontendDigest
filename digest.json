@@ -1,11 +1,11 @@
 {	
-	"digestTitle": "Frontend Digest #22",
-	"titleImg": "C:\/Users\/Egor\/projects\\/frontendDigest\\/img\\/main_logo.png",
+	"digestTitle": "Frontend Digest #23",
+	"titleImg": "C:/Users/Egor/projects/frontendDigest/img/main_logo.png",
 	
 	"people": {
-		"title": "Антон Немцев",
-		"img": "###",
-		"about": "Независимый фронтенд-разработчик с опытом работы около 14 лет. Антон – постоянный докладчик на WSD (Web Standards Days), выступает на всём постсоветском пространстве. В интернете можно найти много видео с его выступлений. Также он является представителем сообщества «Веб-стандарты» в Украине. Антон - профессиональный верстальщик. Участвовал в разработке проектов для таких брендов как Parallels, Groupon, Camel, Winstone, Kinder, Kent, Lays и многих других.Антон Немцев - создатель электронного журнала  <a href=\"frontender.info\">frontender.info</a>"
+		"title": "Алекс Могилевский",
+		"img": "C:/Users/Egor/projects/frontendDigest/img/23/1.jpg",
+		"about": "<p>Один из главных архитекторов Internet Explorer, а также один из разработчиков стандарта CSS. Для тех, кто понимает, этот человек – легенда</p><p>Алекс учился на физическом факультете Новосибирского Государственного университета; специальность - автоматизация физико-технических исследований - одна из первых в стране, напрямую связанная с вычислительной техникой. Работал в Институте автоматики, позднее - в московской компании Paragraph International, которая занималась системами распознавания рукописного текста. В 1993-м меня пригласили в Microsoft на собеседование, а затем и на работу в корпорацию.</p><p>Работа Алекса в Microsoft началась с Microsoft Word for Windows шестой версии. Результатом его работы над проектом стала всем известная \"красная волнистая линия\", которая подчеркивает сомнительные места.</p><p>Алекс - один из тех, кто представляет IE в CSS Working Group. Развитие CSS определяется в основном потребностями разработчиков: делением на представление и содержание, оптимизацию кода, создание новых возможностей.</p><p>Алексу 43 года, он женат, имеет двоих детей и не представляет свою жизнь без разработки сложных проектов. На вопрос \"Чем бы занимался, уйдя из корпорации?\" отвечает твердо - делал бы проекты, принцип реализации которых не представляет никто.</p>"
 	},
 
 	"blocks": [
@@ -13,19 +13,19 @@
 		"title": "CSS",
 		"articles": [
 			{
-				"title": "Новый дизайн Can I Use",
-				"url": "http://caniuse.com/",
-				"text": "Обновился дизайн одного из самых известных и авторитетных ресурсов по подборке совместимостей тех или иных свойств в различных браузерах, в том числе и мобильных. Конечно, что может быть авторитетнее W3C, но как же все-таки удобно им пользоваться, и так быстро можно получить ответ на вопрос, могу ли я использовать flex-box и в каких браузерах?"	
+				"title": "Документируйте свой Sass",
+				"url": "https://github.com/SassDoc/sassdoc/",
+				"text": "Отличный инструмент для тех кто ведет документацию на своем проекте. Теперь писать доки по Sass можно также легко и просто, как вы это делаете при помощи JSDoc. В комплекте таски для Grunt/Gulp по вкусу."
 			},
 			{
-				"title": "Mix-blend-mode в CSS3",
-				"url": "http://blogs.adobe.com/webplatform/2014/07/09/fade-transition-effects-using-blend-modes/",
-				"text": "Хотим вас познакомить с новыми экспериментальными эффектами, которые пока лишь доступны в последних браузерах типа Chrome 35, Firefox 30 и Opera 22, и то со специальным флагом. Речь пойдет о вариациях на тему Fading effects, ведь до сегодняшнего дня мы могли только уныло пересчитывать свойства opacity у необходимого элемента, но судя по всему, скоро нам станут доступны свойства mix-blend-mode, для реализации максимально гибких настроек у fading эффектов. *Убедитесь что у вас активирован следующий флаг chrome://flags/#enable-experimental-web-platform-features"	
+				"title": "Single Div и погодные иконки",
+				"url": "http://codepen.io/fbrz/full/iqtlk",
+				"text": "В полку крутые примеров из разряда single div прибыло! Отличные и весьма сложные примеры, каждый раз не верится, что все это великолепие может уместиться в один блочный элемент."
 			},
 			{
-				"title": "Шпаргалка по transitions",
-				"url": "http://easings.net/ru",
-				"text": "С приходом transitions в CSS3 мы начали делать наши интерфейсы плавными. Теперь, различные выпадающие менюшки и всплывающие окна не просто появляются и исчезают, а умеют это делать максимально плавно. Чтобы не запутаться во всем многообразии различных анимаций, а также иметь под рукой удобный интерактивный справочник и шпаргалку в одном экземпляре, рекомендуем не пропустить данную ссылку."	
+				"title": "3d типографика и CSS",
+				"url": "http://codepen.io/noahblon/pen/CsxfH",
+				"text": "С каждым новым днем CSS3 не перестает нас удивлять, на этот раз невероятный пример 3d типографики, причем вкупе с анимацией."
 			}				
 		]
 	},
@@ -33,39 +33,44 @@
 		"title": "User Expirience",
 		"articles": [
 			{
-				"title": "The software design trends that we love to hate",
-				"url": "http://arstechnica.com/gadgets/2014/07/the-software-design-trends-that-we-love-to-hate/",
-				"text": "4 спорные тенденции в дизайне интерфейсов: — «невидимые» кнопки — снижение плотности информации — злоупотребление полупрозрачностью — «капитель» — заголовки из всех прописных"	
+				"title": "Design for Kids. Digital Products for Playing and Learning. Выдержки из нескольких глав",
+				"url": "http://rosenfeldmedia.com/books/design-for-kids/",
+				"text": "B Rosenfeld Media вышла книга нашей коллеги из EmpathyLab, Дебры Гельман, Design for Kids. <a href=\"http://www.uxmatters.com/mt/archives/2014/07/design-for-kids-digital-products-for-playing-and-learning.php\">Глава 2</a>"
 			},
 			{
-				"title": "«Direct Access vs. Sequential Access: Definition»",
-				"url": "http://www.nngroup.com/articles/direct-vs-sequential-access/",
-				"text": "Статья про прямой и последовательный доступ к информации в интерфейсах. Примером последовательного доступа может послужить обычная книга: человек, читая страницу за страницей, получает доступ к информации последовательно. Ссылки же на сайте являются примером прямого доступа: чтобы получить доступ к тому или иному контенту, нам не надо листать все страницы сайта, достаточно просто нажать на нужную ссылку. В статье автор рассказывает про минусы использования «традиционного» последовательного подхода в современных интерфейсах (например, о роликах с инструкциями: пользователь смотрит все N видео, чтобы добраться до совсем, порой, небольшого куска нужной ему информации) и способы решения создаваемых этим подходом проблем. "	
+				"title": "A Redesigned Parking Sign So Simple That You’ll Never Get Towed",
+				"url": "http://www.wired.com/2014/07/a-redesigned-parking-sign-so-simple-youll-never-get-towed-again/",
+				"text": "Концепция редизайна расписания парковки от Nikki Sylianteng. (Интересно описание самого процесса, например, как вводилась поддержка для пользователей с цветовой слепотой)"
 			},
 			{
-				"title": "Digital Dashboards: Strategic & Tactical: Best Practices, Tips, Examples",
-				"url": "http://www.kaushik.net/avinash/digital-dashboards-strategic-tactical-best-practices-tips-examples/",
-				"text": "Информационный дизайн. Концептуальный подход к проектированию информационных панелей (дашбордов), Avinash Kaushik"	
-			}				
+				"title": "How to Use Persona Empathy Mapping",
+				"url": "http://uxmag.com/articles/how-to-use-persona-empathy-mapping",
+				"text": "Использование метода карт эмпатии на практике."
+			},
+			{
+				"title": "Hot User Input Design Patterns for Mobile",
+				"url": "http://designmodo.com/user-input-patterns-mobile/",
+				"text": "Chris Bank сделал выжимку о шаблонах мобильного ввода."
+			}
 		]
 	},
 	{
-		"title": "Intresting",
+		"title": "Interesting",
 		"articles": [
 			{
-				"title": "Обучающие ресурсы в одном месте",
-				"url": "http://www.bento.io/",
-				"text": "Ресурс с подборкой материала для изучения веб-технологий и не только. Он содержит ссылки на обучаеющие материалы по фронтенду, бекенду, базам данных, API и многому другому"	
+				"title": "Opinionated AngularJS styleguide for teams",
+				"url": "http://toddmotto.com/opinionated-angular-js-styleguide-for-teams/?utm_source=javascriptweekly&utm_medium=email",
+				"text": "Автор статьи расказывает нам, о правильном код стайле AngularJS проектов"
 			},
 			{
-				"title": "12 Extensions and Apps that Fill the Gaps in Chrome DevTools",
-				"url": "http://developer.telerik.com/featured/12-extensions-apps-fill-gaps-devtools/?utm_source=html5weekly&utm_medium=email",
-				"text": "Многие из нас пользуются Chrome DevTools в качестве дебагинга наших веб приложений, но бывает так что чего то не хватает для полного погружения в разработку. Автор предложил дюжину экстеншенов, которые по его мнению способны облегчить нам жизнь."	
+				"title": "Встречайте Bonegular",
+				"url": "https://github.com/tkambler/bonegular?utm_source=javascriptweekly&utm_medium=email",
+				"text": "Многим матерым веб-разработчикам импонирует BackboneJS, как гибкий фреймворк для разработки фронтенд приложений. Но в тренде сейчас его конкурент AngularJS активно продвигаемый компанией Google. Авторы этого репозитория решили скрестить эти два фреймворка. Давайте посмотрим что у них получилось ;)"
 			},
 			{
-				"title": "Create high-performance mobile UIs with Famo.us",
-				"url": "http://www.ibm.com/developerworks/library/wa-famous/index.html?utm_source=mobilewebweekly&utm_medium=email",
-				"text": "На прошедшем митапе 4front спикер делился своими впечатлениями от Famo.us, автор статьи же предлагает углубится в пучины создания мобильных интерфейсов при помощи Famo.us"	
+				"title": "Horizontally Scaling Node.js and WebSockets with Redis",
+				"url": "http://goldfirestudios.com/blog/136/Horizontally-Scaling-Node.js-and-WebSockets-with-Redis?utm_source=dbweekly&utm_medium=email",
+				"text": "Кластеры модулей Node.js являются распространенным методом масштабирования серверов, что позволяет использовать все имеющиеся процессорные мощности. Однако, что будет, если вам нужно масштабироваться на несколько серверах или виртуальных машин?"
 			}				
 		]
 	}
@@ -74,37 +79,33 @@
 		"title": "Links",
 		"articles": [
 			{
+				"title": "Дайджест интересных материалов из мира веб-разработки и IT",
+				"url": "http://habrahabr.ru/company/zfort/blog/231241/"
+			},
+            {
 				"title": "Несколько интересностей и полезностей для веб-разработчика",
-				"url": "http://habrahabr.ru/post/230405/"
+				"url": "http://habrahabr.ru/post/231151/"
 			},
 			{
-				"title": "&raquo; Полезные материалы для мобильного разработчика",
-				"url": "http://habrahabr.ru/post/230455/"
+				"title": "Полезные материалы для мобильного разработчика",
+				"url": "http://habrahabr.ru/post/231195/"
 			},
 			{
-				"title": ">> Дайджест интересных новостей и материалов из мира PHP",
-				"url": "http://habrahabr.ru/company/zfort/blog/230481/"
+				"title": "Python-digest. Новости, интересные проекты, статьи и интервью",
+				"url": "http://habrahabr.ru/post/231255/"
 			},
 			{
-				"title": ">> 18 неожиданностей при чтении исходного кода jQuery",
-				"url": "http://habrahabr.ru/post/230449/"
+				"title": "Top 5 ES.next Features",
+				"url": "http://moduscreate.com/top-5-es6-harmony-features/"
 			},
 			{
-				"title": ">> Node.js Perfomance: Managing Garbage Collection",
-				"url": "http://strongloop.com/strongblog/node-js-performance-garbage-collection/?utm_source=nodeweekly&utm_medium=email"
+				"title": "n3-charts: versatile charts for AngularJS",
+				"url": "http://n3-charts.github.io/line-chart/#/"
 			},
 			{
-				"title": ">> 11 Great JavaScript Interview Questions",
-				"url": "http://www.toptal.com/javascript/interview-questions?utm_source=javascriptweekly&utm_medium=email"
-			},
-			{
-				"title": ">> Performance of Canvas vs SVG",
-				"url": "http://smus.com/canvas-vs-svg-performance/"
-			},
-			{
-				"title": ">> Reusable JavaScript MVC frameworks",
-				"url": "http://smus.com/reusable-js-mvc-frameworks/"
-			}			
+				"title": "An introduction to ES6 classes",
+				"url": "http://javascriptplayground.com/blog/2014/07/introduction-to-es6-classes-tutorial/"
+			}
 		]
 	},
 
@@ -119,6 +120,11 @@
 				"name": "Siarhei Mikhailau",
 				"email": "mailto:Siarhei_Mikhailau@epam.com"
 			},
+            {
+                "whoIs": "Рубрика PEOPLE - ",
+                "name": "Veranika Baradzina",
+                "email": "mailto:Veranika_Baradzina@epam.com"
+            },
 			{
 				"whoIs": "Рубрика CSS - ",
 				"name": "Andrei Ivashkevich",
