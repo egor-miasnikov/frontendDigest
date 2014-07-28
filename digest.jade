@@ -1,168 +1,177 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 html(xmlns='http://www.w3.org/1999/xhtml')
-  head
-    meta(http-equiv='Content-Type', content='text/html', charset='UTF-8')
-    title= digestTitle
-    style(type='text/css').
-      body{
-        margin:0;
-        padding:0;
-        font-family: 'Arial',sans-serif;
-        background-color:#F4F5F7;
-      }
-      img{
-        border:0;
-        height:auto;
-        line-height:100%;
-        text-decoration:none;
-      }
-      table{
-        border-collapse:collapse !important;
-      }
-      body,#bodyTable,#bodyCell{
-        height:100% !important;
-        margin:0;
-        padding:0;
-        width:100% !important;
-      }
-      #bodyCell{
-        padding:20px;
-      }
-      #templateContainer{
-        width:600px;
-      }
-      h1{
-        color: #1D1F26;
-        font-family: 'Arial',sans-serif;
-        font-size:18px;
-        font-style:normal;
-        font-weight:bold;
-        line-height:100%;
-        letter-spacing:normal;
-        padding-bottom:0;
-        margin-top:0;
-        margin-right:0;
-        margin-bottom:0;
-        margin-left:0;
-        text-align:left;
-        text-transform:uppercase;
-      }
-      h2{
-        color: #34BAED;
-        font-family: 'Arial',sans-serif;
-        font-size:18px;
-        font-style:normal;
-        font-weight:bold;
-        line-height:100%;
-        letter-spacing:normal;
-        margin-top:0;
-        margin-right:0;
-        margin-bottom:10px;
-        margin-left:0;
-        text-align:left;
-      }
-      h3{
-        color: #000000;
-        font-family: 'Arial',sans-serif;
-        font-size:18px;
-        font-style:normal;
-        font-weight:bold;
-        line-height:100%;
-        letter-spacing:normal;
-        margin-top:0;
-        margin-right:0;
-        margin-bottom:10px;
-        margin-left:0;
-        text-align:left;
-      }
-      .footerContent a:link,.footerContent a:visited {
-        color:#606060;
-        font-weight:normal;
-        text-decoration:underline;
-      }
-      a{
-        text-decoration: none;
-        color: #34BAED;
-      }
-      a:hover{
-        text-decoration: underline;
-      }
-  body(leftmargin='0', marginwidth='0', topmargin='0', marginheight='0', offset='0')
-    // <center>
-    table#bodyTable(align='center', border='0', cellpadding='0', cellspacing='0', height='100%', width='100%', style='background-color: #F4F5F7;')
-      tr
-        td#bodyCell(align='center', valign='top')
-          // BEGIN TEMPLATE // 
-          table#templateContainer(border='0', cellpadding='0', cellspacing='0')
+    head
+        meta(http-equiv='Content-Type', content='text/html', charset='UTF-8')
+        title= digestTitle
+        style(type='text/css').
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Arial', sans-serif;
+                background-color: #F4F5F7;
+            }
+
+            img {
+                border: 0;
+                height: auto;
+                line-height: 100%;
+                text-decoration: none;
+            }
+
+            table {
+                border-collapse: collapse !important;
+            }
+
+            body, #bodyTable, #bodyCell {
+                height: 100% !important;
+                margin: 0;
+                padding: 0;
+                width: 100% !important;
+            }
+
+            #bodyCell {
+                padding: 20px;
+            }
+
+            #templateContainer {
+                width: 600px;
+            }
+
+            h1 {
+                color: #1D1F26;
+                font-family: 'Arial', sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: bold;
+                line-height: 100%;
+                letter-spacing: normal;
+                padding-bottom: 0;
+                margin-top: 0;
+                margin-right: 0;
+                margin-bottom: 0;
+                margin-left: 0;
+                text-align: left;
+                text-transform: uppercase;
+            }
+
+            h2 {
+                color: #34BAED;
+                font-family: 'Arial', sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: bold;
+                line-height: 100%;
+                letter-spacing: normal;
+                margin-top: 0;
+                margin-right: 0;
+                margin-bottom: 10px;
+                margin-left: 0;
+                text-align: left;
+            }
+
+            h3 {
+                color: #000000;
+                font-family: 'Arial', sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: bold;
+                line-height: 100%;
+                letter-spacing: normal;
+                margin-top: 0;
+                margin-right: 0;
+                margin-bottom: 10px;
+                margin-left: 0;
+                text-align: left;
+            }
+
+            .footerContent a:link, .footerContent a:visited {
+                color: #606060;
+                font-weight: normal;
+                text-decoration: underline;
+            }
+
+            a {
+                text-decoration: none;
+                color: #34BAED;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+    body(leftmargin='0', marginwidth='0', topmargin='0', marginheight='0', offset='0')
+        // <center>
+        table#bodyTable(align='center', border='0', cellpadding='0', cellspacing='0', height='100%', width='100%', style='background-color: #F4F5F7;')
             tr
-              td(align='center', valign='top')
-                // BEGIN HEADER // 
-                table#templateHeader(border='0', cellpadding='0', cellspacing='0', width='100%')
-                  tr
-                    td.headerContent(valign='top')
-                      img#headerImage(src= titleImg, style='width: 600px;')
-                // // END HEADER 
-            tr
-              td(align='center', valign='top')
-                // BEGIN BODY // 
-                table#templateBody(border='0', cellpadding='0', cellspacing='0', width='100%', style='background-color: #FFFFFF;')
-                  tr
-                    td.bodyContent(valign='top', style='color: #596378; font-family: \'Arial\'; font-size: 13px; line-height: 150%; text-align: left;')
-                      table.section.people(border='0', cellpadding='0', cellspacing='0', width='100%', style='background-color: #FFFFFF; color: #596378; font-size: 13px; font-family: \'Arial\';')
+                td#bodyCell(align='center', valign='top')
+                    // BEGIN TEMPLATE //
+                    table#templateContainer(border='0', cellpadding='0', cellspacing='0')
                         tr
-                          td(style='padding-top: 30px; padding-right: 20px; padding-bottom: 30px; padding-left: 20px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;')
-                            h1.heading(style='border-bottom: none; color: #1D1F26; padding-bottom: 0px; margin-bottom: 15px;')
-                              table
-                                tr
-                                  td(style='color: #1D1F26; font-family: \'Arial\',sans-serif; font-size: 18px; font-style: normal; font-weight: bold; line-height: 100%; letter-spacing: normal; text-transform: uppercase;') PEOPLE
-                            .content(style='border-top: 1px solid #DADDE4; padding-top: 20px; margin-top: 0px;')
-                              h3= people.title
-                              img(src= people.img, alt='')
-
-   
-
-                              div(style='font-family: \'Arial\',sans-serif;') !{people.about}
-                                  br
-                      each block, index in blocks
-                        table.section.javascript(border='0', cellpadding='0', cellspacing='0', width='100%', style=(index%2 == 0)?'background-color:#EBEDF1;color: #596378; font-size: 13px; font-family: \'Arial\';':'background-color:#FFFFFF;color: #596378; font-size: 13px; font-family: \'Arial\';' )
-                          tr
-                            td(style='padding-top: 30px; padding-right: 20px; padding-bottom: 30px; padding-left: 20px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;')
-                              h1.heading(style='border-bottom: none; color: #1D1F26; padding-bottom: 0px; margin-bottom: 15px;')
-                                table
-                                  tr
-                                    td(style='color: #1D1F26; font-family: \'Arial\',sans-serif; font-size: 18px; font-style: normal; font-weight: bold; line-height: 100%; letter-spacing: normal; text-transform: uppercase;')= block.title
-                                each topic in block.articles
-                                  h2
-                                    a(href=topic.url)= topic.title
-                                  div(style='font-family: \'Arial\',sans-serif;')
-                                  | !{topic.text}
-                                  br           
-
-                      table.section.links(border='0', cellpadding='0', cellspacing='0', width='100%', style='background-color: #34BAED; color: #FFFFFF; font-size: 13px; font-family: \'Arial\',sans-serif;')
+                            td(align='center', valign='top')
+                                // BEGIN HEADER //
+                                table#templateHeader(border='0', cellpadding='0', cellspacing='0', width='100%')
+                                    tr
+                                        td.headerContent(valign='top')
+                                            img#headerImage(src= titleImg, style='width: 600px;')
+                                // // END HEADER
                         tr
-                          td(style='padding-top: 30px; padding-right: 20px; padding-bottom: 30px; padding-left: 20px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;')
-                            h1.heading(style='border-bottom: none; color: #FFFFFF; padding-bottom: 0px; margin-bottom: 15px;')
-                              table
-                                tr
-                                  td(style='color: #FFFFFF; font-family: \'Arial\',sans-serif; font-size: 18px; font-style: normal; font-weight: bold; line-height: 100%; letter-spacing: normal; text-transform: uppercase;')= links.title
-                            .content(style='border-top: 1px solid #FFFFFF; padding-top: 20px; margin-top: 0px;')
-                              each link in links.articles
-                                div
-                                  a(href= link.url, style='text-decoration: none; color: #FFFFFF; font-family: \'Arial\',sans-serif;')
-                                  | !{link.title}
-                                br
-                // // END BODY 
-            tr
-              td(align='center', valign='top')
-                // BEGIN FOOTER // 
-                table#templateFooter(border='0', cellpadding='0', cellspacing='0', width='100%', style='background-color: #FFFFFF;')
-                  tr
-                    td.footerContent(valign='top', style='color: #C9CDD6; font-family: \'Arial\',sans-serif; font-size: 13px; line-height: 150%; padding-top: 30px; padding-right: 20px; padding-left: 20px; padding-bottom: 30px; text-align: left;')
-                      | !{footer.title}
-                      each person in footer.team
-                        br
-                        | !{person.whoIs}
-                        a(href=person.email, style='text-decoration: none; color: #34BAED; font-family: \'Arial\',sans-serif;')= person.name
-                // // END FOOTER 
-          // // END TEMPLATE 
-    // </center>
+                            td(align='center', valign='top')
+                                // BEGIN BODY //
+                                table#templateBody(border='0', cellpadding='0', cellspacing='0', width='100%', style='background-color: #FFFFFF;')
+                                    tr
+                                        td.bodyContent(valign='top', style='color: #596378; font-family: \'Arial\'; font-size: 13px; line-height: 150%; text-align: left;')
+                                            table.section.people(border='0', cellpadding='0', cellspacing='0', width='100%', style='background-color: #FFFFFF; color: #596378; font-size: 13px; font-family: \'Arial\';')
+                                                tr
+                                                    td(style='padding-top: 30px; padding-right: 20px; padding-bottom: 30px; padding-left: 20px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;')
+                                                        h1.heading(style='border-bottom: none; color: #1D1F26; padding-bottom: 0px; margin-bottom: 15px;')
+                                                            table
+                                                                tr
+                                                                    td(style='color: #1D1F26; font-family: \'Arial\',sans-serif; font-size: 18px; font-style: normal; font-weight: bold; line-height: 100%; letter-spacing: normal; text-transform: uppercase;') PEOPLE
+                                                        .content(style='border-top: 1px solid #DADDE4; padding-top: 20px; margin-top: 0px;')
+                                                            h3= people.title
+                                                            img(src= people.img, alt='')
+                                                            div(style='font-family: \'Arial\',sans-serif;') !{people.about}
+                                                                br
+                                            each block, index in blocks
+                                                table.section.javascript(border='0', cellpadding='0', cellspacing='0', width='100%', style=(index%2 == 0)?'background-color:#EBEDF1;color: #596378; font-size: 13px; font-family: \'Arial\';':'background-color:#FFFFFF;color: #596378; font-size: 13px; font-family: \'Arial\';' )
+                                                    tr
+                                                        td(style='padding-top: 30px; padding-right: 20px; padding-bottom: 30px; padding-left: 20px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;')
+                                                            h1.heading(style='border-bottom: none; color: #1D1F26; padding-bottom: 0px; margin-bottom: 15px;')
+                                                                table
+                                                                    tr
+                                                                        td(style='color: #1D1F26; font-family: \'Arial\',sans-serif; font-size: 18px; font-style: normal; font-weight: bold; line-height: 100%; letter-spacing: normal; text-transform: uppercase;')= block.title
+                                                            .articles(style='border-top: 1px solid #34BAED; padding-top: 20px; margin-top: 0px;')
+                                                                each topic in block.articles
+                                                                    h2
+                                                                        a(href=topic.url)= topic.title
+                                                                    div(style='font-family: \'Arial\',sans-serif;')
+                                                                    | !{topic.text}
+                                                                    br
+
+                                            table.section.links(border='0', cellpadding='0', cellspacing='0', width='100%', style='background-color: #34BAED; color: #FFFFFF; font-size: 13px; font-family: \'Arial\',sans-serif;')
+                                                tr
+                                                    td(style='padding-top: 30px; padding-right: 20px; padding-bottom: 30px; padding-left: 20px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;')
+                                                        h1.heading(style='border-bottom: none; color: #FFFFFF; padding-bottom: 0px; margin-bottom: 15px;')
+                                                            table
+                                                                tr
+                                                                    td(style='color: #FFFFFF; font-family: \'Arial\',sans-serif; font-size: 18px; font-style: normal; font-weight: bold; line-height: 100%; letter-spacing: normal; text-transform: uppercase;')= links.title
+                                                        .content(style='border-top: 1px solid #FFFFFF; padding-top: 20px; margin-top: 0px;')
+                                                            each link in links.articles
+                                                                div
+                                                                    a(href= link.url, style='text-decoration: none; color: #FFFFFF; font-family: \'Arial\',sans-serif;')
+                                                                    | !{link.title}
+                                                                br
+                                // // END BODY
+                        tr
+                            td(align='center', valign='top')
+                                // BEGIN FOOTER //
+                                table#templateFooter(border='0', cellpadding='0', cellspacing='0', width='100%', style='background-color: #FFFFFF;')
+                                    tr
+                                        td.footerContent(valign='top', style='color: #C9CDD6; font-family: \'Arial\',sans-serif; font-size: 13px; line-height: 150%; padding-top: 30px; padding-right: 20px; padding-left: 20px; padding-bottom: 30px; text-align: left;')
+                                            | !{footer.title}
+                                            each person in footer.team
+                                                br
+                                                | !{person.whoIs}
+                                                a(href=person.email, style='text-decoration: none; color: #34BAED; font-family: \'Arial\',sans-serif;')= person.name
+                                // // END FOOTER
+                    // // END TEMPLATE
+        // </center>
