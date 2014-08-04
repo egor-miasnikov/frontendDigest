@@ -1,0 +1,176 @@
+{	
+	"digestTitle": "Frontend Digest #23",
+	"titleImg": "C:/Users/Egor/projects/frontendDigest/img/main_logo.png",
+	
+	"people": {
+		"title": "",
+		"img": "",
+		"about": ""
+	},
+
+	"blocks": [
+	{
+		"title": "CSS",
+		"articles": [
+			{
+				"title": "",
+				"url": "",
+				"text": ""
+			},
+			{
+				"title": "",
+				"url": "",
+				"text": ""
+			},
+			{
+				"title": "",
+				"url": "",
+				"text": ""
+			}				
+		]
+	},
+	{
+		"title": "User Expirience",
+		"articles": [
+			{
+				"title": "",
+				"url": "",
+				"text": ""
+			},
+			{
+				"title":"",
+				"url": "",
+				"text": ""
+			},
+			{
+				"title": "",
+				"url": "",
+				"text": ""
+			},
+			{
+				"title": "",
+				"url": "",
+				"text": ""
+			}
+		]
+	},
+	{
+		"title": "Videos",
+		"articles": [
+			{
+				"title": "",
+				"url": "",
+				"text": ""
+			},
+			{
+				"title": "",
+				"url": "",
+				"text": ""
+			},
+			{
+				"title": "",
+				"url": "",
+				"text": ""
+			}				
+		]
+	},
+	{
+		"title": "Interesting",
+		"articles": [
+			{
+				"title": "",
+				"url": "",
+				"text": ""
+			},
+			{
+				"title": "",
+				"url": "",
+				"text": ""
+			},
+			{
+				"title": "",
+				"url": "",
+				"text": ""
+			}
+		]
+	}
+	],
+	"links": {
+		"title": "Links",
+		"articles": [
+			{
+				"title": "",
+				"url": ""
+			},
+            {
+				"title": "",
+				"url": ""
+			},
+			{
+				"title": "",
+				"url": ""
+			},
+			{
+				"title": "",
+				"url": ""
+			},
+			{
+				"title": "",
+				"url": ""
+			},
+			{
+				"title": "",
+				"url": ""
+			},
+			{
+				"title": "",
+				"url": ""
+			}
+		]
+	},
+
+
+
+
+	"footer": {
+		"title": "Над проектом трудились:",
+		"team": [
+			{
+				"whoIs": "Координатор проекта - ",
+				"name": "Siarhei Mikhailau",
+				"email": "mailto:Siarhei_Mikhailau@epam.com"
+			},
+            {
+                "whoIs": "Рубрика PEOPLE - ",
+                "name": "Veranika Baradzina",
+                "email": "mailto:Veranika_Baradzina@epam.com"
+            },
+			{
+				"whoIs": "Рубрика CSS - ",
+				"name": "Andrei Ivashkevich",
+				"email": "mailto:Andrei_Ivashkevich@epam.com"
+			},
+			{
+				"whoIs": "Рубрика User Expirience - ",
+				"name": "Kira Bozhkova",
+				"email": "mailto:Kira_Bozhkova@epam.com"
+			},
+			{
+				"whoIs": "Рубрика Intresting & Links - ",
+				"name": "Egor Miasnikov",
+				"email": "mailto:Egor_Miasnikov@epam.com"
+			},
+			{
+				"whoIs": "Main logo - ",
+				"name": "Aliaksandr Hudkou",
+				"email": "mailto:Aliaksandr_Hudkou@epam.com"
+			},
+			{
+				"whoIs": "Email templater - ",
+				"name": "Ihar Daineka",
+				"email": "mailto:Ihar_Daineka@epam.com"
+			}
+		]
+	} 
+}
+

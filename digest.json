@@ -1,11 +1,11 @@
 {	
-	"digestTitle": "Frontend Digest #23",
-	"titleImg": "C:/Users/Egor/projects/frontendDigest/img/main_logo.png",
+	"digestTitle": "Frontend Digest #24",
+	"titleImg": "C:\\Users\\Egor\\projects\\frontendDigest\\img\\main_logo.png",
 	
 	"people": {
-		"title": "Алекс Могилевский",
-		"img": "C:/Users/Egor/projects/frontendDigest/img/23/1.jpg",
-		"about": "<p>Один из главных архитекторов Internet Explorer, а также один из разработчиков стандарта CSS. Для тех, кто понимает, этот человек – легенда</p><p>Алекс учился на физическом факультете Новосибирского Государственного университета; специальность - автоматизация физико-технических исследований - одна из первых в стране, напрямую связанная с вычислительной техникой. Работал в Институте автоматики, позднее - в московской компании Paragraph International, которая занималась системами распознавания рукописного текста. В 1993-м меня пригласили в Microsoft на собеседование, а затем и на работу в корпорацию.</p><p>Работа Алекса в Microsoft началась с Microsoft Word for Windows шестой версии. Результатом его работы над проектом стала всем известная \"красная волнистая линия\", которая подчеркивает сомнительные места.</p><p>Алекс - один из тех, кто представляет IE в CSS Working Group. Развитие CSS определяется в основном потребностями разработчиков: делением на представление и содержание, оптимизацию кода, создание новых возможностей.</p><p>Алексу 43 года, он женат, имеет двоих детей и не представляет свою жизнь без разработки сложных проектов. На вопрос \"Чем бы занимался, уйдя из корпорации?\" отвечает твердо - делал бы проекты, принцип реализации которых не представляет никто.</p>"
+		"title": "Matt Mickiewicz",
+		"img": "C:\\Users\\Egor\\projects\\frontendDigest\\img\\24\\1.jpg",
+		"about": "<p>Мэтт родился в Кракове, Польша. Он создал свой первый сайт в возрасте 14 лет, назывался он Webmaster-Resources.com, который в дальнейшем стал <a href='http://en.wikipedia.org/wiki/SitePoint'>SitePoint.com</a>. В 16 лет он съездил с матерью в Мельбурн, где встретил своего будущего бизнес-партнёра и со-основателя Mark Harbottle. В 16 он уже совершал около 10.000 рекламных сделок между уроками, поэтому он с трудом закончил школу, а в колледж даже не стал поступать.</p><p>В 2008 г. он отделил 99designs от SitePoint, которая выросла в 35млн компанию.</p><p>В 2009 г. Мэтт и Марк аннонсировали <a href='https://flippa.com/'>Flippa.com</a>, крупнейшую площадку по покупке и продаже веб-сайтов.</p><p>В 2012 г. Мэтт стал сооснователем  DeveloperAuction.com (позже был переименован в <a href='https://hired.com/'></a>hired.com), выросшей на 2.7 млн.</p><p>В 2011 г. Мэтт вошёл в тридцатку бизнесменов по мнению Forbes и INC, а 2012 – в тридцатку Smart Companies.</p><p>Он часто выступает на конференциях и семинарах по всему миру. На данный момент живёт в Канаде.</p>"
 	},
 
 	"blocks": [
@@ -13,19 +13,19 @@
 		"title": "CSS",
 		"articles": [
 			{
-				"title": "Документируйте свой Sass",
-				"url": "https://github.com/SassDoc/sassdoc/",
-				"text": "Отличный инструмент для тех кто ведет документацию на своем проекте. Теперь писать доки по Sass можно также легко и просто, как вы это делаете при помощи JSDoc. В комплекте таски для Grunt/Gulp по вкусу."
+				"title": "А как пишут CSS на гитхабе?",
+				"url": "http://markdotto.com/2014/07/23/githubs-css/",
+				"text": "Как настоящий верстала, вы наверняка сразу же жмете F12, как только видите симпатичный сайт. Однако Chrome Dev Tools не откроют вам всех тайн.. Именно поэтому Марк Отто взял и выложил всю правду про CSS сайта github.com"
 			},
 			{
-				"title": "Single Div и погодные иконки",
-				"url": "http://codepen.io/fbrz/full/iqtlk",
-				"text": "В полку крутые примеров из разряда single div прибыло! Отличные и весьма сложные примеры, каждый раз не верится, что все это великолепие может уместиться в один блочный элемент."
+				"title": "Красивый газетный лэйаут",
+				"url": "http://alistapart.com/blog/post/ten-css-one-liners-to-replace-native-apps ",
+				"text": "Лэйаут типичной печатной газеты очень привлекателен, но можно ли адекватно сверстать его для веба? На легендарном Элистапарте как раз вышла статья об этом."
 			},
 			{
-				"title": "3d типографика и CSS",
-				"url": "http://codepen.io/noahblon/pen/CsxfH",
-				"text": "С каждым новым днем CSS3 не перестает нас удивлять, на этот раз невероятный пример 3d типографики, причем вкупе с анимацией."
+				"title": "RTL и прочие ужасы локализации",
+				"url": "http://alfy.me/2014/07/26/lets-talk-about-rtl.html",
+				"text": "Для кого-то может оказаться новостью, что не все языки предполагают письменность слева направо. А ведь жизнь непредсказуемая штука, глобализация идет семимильными шагами, и вот вы уже завтра можете обнаружить себя на проекте у арабского клиента. Говорите, не может быть такого? Ну что ж, почитайте тогда просто для развития про верстку RTL - right to left."
 			}				
 		]
 	},
@@ -33,45 +33,60 @@
 		"title": "User Expirience",
 		"articles": [
 			{
-				"title": "Design for Kids. Digital Products for Playing and Learning. Выдержки из нескольких глав",
-				"url": "http://rosenfeldmedia.com/books/design-for-kids/",
-				"text": "B Rosenfeld Media вышла книга нашей коллеги из EmpathyLab, Дебры Гельман, Design for Kids. <a href=\"http://www.uxmatters.com/mt/archives/2014/07/design-for-kids-digital-products-for-playing-and-learning.php\">Глава 2</a>"
+				"title": "Creating distraction-free reading experiences",
+				"url": "http://azumbrunnen.me/blog/creating-distraction-free-reading-experiences/",
+				"text": "Adrian Zumbrunnen написал статью о том, как создавать distraction-free reading experience. С самого начала он проводит аналогию чтения с игрой Flappy Bird. Суть в том, что для того, чтобы набирать в этой игре много очков, надо перестать отвлекаться на сами очки и сфокусироваться на игровом процессе — так у игрока будет больше шансов избежать столкновений с препятствиями. Вот так же и с людьми читающими статью, утверждает автор. Плохая типографика, слишком навязчивая реклама, неуместное использование анимации — все это отвлекает читателя раз за разом и заставляет его врезаться в эту чертову зеленую трубу и начинать все заново."
 			},
 			{
-				"title": "A Redesigned Parking Sign So Simple That You’ll Never Get Towed",
-				"url": "http://www.wired.com/2014/07/a-redesigned-parking-sign-so-simple-youll-never-get-towed-again/",
-				"text": "Концепция редизайна расписания парковки от Nikki Sylianteng. (Интересно описание самого процесса, например, как вводилась поддержка для пользователей с цветовой слепотой)"
+				"title":"Триггеры – «спусковые крючки» принятия решений",
+				"url": "http://www.cmsmagazine.ru/library/items/graphical_design/triggers/",
+				"text": "Перевод раздела сайта <a href='http://zurb.com/triggers'>zurb.com</a> о триггерах. Раздел представляет из себя коллекцию действенных психологических мотиваторов, когнитивных законов и поведенческих паттернов, позволяющий исследовать все возможности решения определённых задач, например, «Что нужно для того, чтобы пользователи захотели зарегистрироваться на сайте или совершить другое нужное нам действие?»"
 			},
 			{
-				"title": "How to Use Persona Empathy Mapping",
-				"url": "http://uxmag.com/articles/how-to-use-persona-empathy-mapping",
-				"text": "Использование метода карт эмпатии на практике."
-			},
-			{
-				"title": "Hot User Input Design Patterns for Mobile",
-				"url": "http://designmodo.com/user-input-patterns-mobile/",
-				"text": "Chris Bank сделал выжимку о шаблонах мобильного ввода."
+				"title": "Susan Kare, Iconographer (EG8)",
+				"url": "https://vimeo.com/97583369",
+				"text": "Интересное выступление от интересного человека. Сьюзан Кэр рисовала первые иконки для Мака в 80-х годах. В своем выступлении она рассказывает о том, как она попала на работу в команду Макинтоша, как рисовала свои знаменитые пиктограммы и затрагивает некоторые ключевые принципы, которыми она руководствовалась в работе."
 			}
+		]
+	},
+	{
+		"title": "Videos",
+		"articles": [
+			{
+				"title": "Используем все возможности Chrome DevTools",
+				"url": "https://www.youtube.com/watch?v=0xx_dkv9DEY",
+				"text": "Paul Irish расскажет вам как использовать DevTools на полную катушку, в частности, продвинутые техники для профилирования производительности. Рекомендуем к просмотру."
+			},
+			{
+				"title": "Introduce to node streams",
+				"url": "http://tagtree.tv/intro-to-node-streams?utm_source=nodeweekly&utm_medium=email",
+				"text": "В этом небольшом туториале вы увидите как работать с потоками в NodeJS. Лектор расскажет как сделать собственные read, write, и transform потоки."
+			},
+			{
+				"title": "Swift for JavaScript Developers",
+				"url": "http://realm.io/news/swift-for-javascript-developers/?utm_source=javascriptweekly&utm_medium=email",
+				"text": "Swift - новый язык программирования от Apple. Долкадчик начинает с различий и схожести меджу языком Swift и JavaScript, и далее углубится в основыные понятия языков, такие как классы, коллбэки, безопастная типизация"
+			}				
 		]
 	},
 	{
 		"title": "Interesting",
 		"articles": [
 			{
-				"title": "Opinionated AngularJS styleguide for teams",
-				"url": "http://toddmotto.com/opinionated-angular-js-styleguide-for-teams/?utm_source=javascriptweekly&utm_medium=email",
-				"text": "Автор статьи расказывает нам, о правильном код стайле AngularJS проектов"
+				"title": "СSS3 и мороженное",
+				"url": "http://codepen.io/melawire/pen/aFbEC",
+				"text": "В такие жаркие дни никак не обойтись без мороженного. Советуем вам попробовать новый вкус с CSS3 наполнителем, изготовленного при помощи техники single div."
 			},
 			{
-				"title": "Встречайте Bonegular",
-				"url": "https://github.com/tkambler/bonegular?utm_source=javascriptweekly&utm_medium=email",
-				"text": "Многим матерым веб-разработчикам импонирует BackboneJS, как гибкий фреймворк для разработки фронтенд приложений. Но в тренде сейчас его конкурент AngularJS активно продвигаемый компанией Google. Авторы этого репозитория решили скрестить эти два фреймворка. Давайте посмотрим что у них получилось ;)"
+				"title": "AngularJS vs EmberJS",
+				"url": "http://www.hrishi.me/angularjs-vs-emberjs-a-collation-of-all-the-resources/?utm_source=Ember+Weekly&utm_campaign=50884e4d7d-Ember_Weekly_Issue_68&utm_medium=email&utm_term=0_e96229d21d-50884e4d7d-106353133",
+				"text": "Небольшой холивар на тему Ангуляр против Эмбер"
 			},
 			{
-				"title": "Horizontally Scaling Node.js and WebSockets with Redis",
-				"url": "http://goldfirestudios.com/blog/136/Horizontally-Scaling-Node.js-and-WebSockets-with-Redis?utm_source=dbweekly&utm_medium=email",
-				"text": "Кластеры модулей Node.js являются распространенным методом масштабирования серверов, что позволяет использовать все имеющиеся процессорные мощности. Однако, что будет, если вам нужно масштабироваться на несколько серверах или виртуальных машин?"
-			}				
+				"title": "3 New JavaScript APIs You May Want to Follow",
+				"url": "http://www.sitepoint.com/3-new-javascript-apis-may-want-follow/?utm_source=javascriptweekly&utm_medium=email",
+				"text": "JavaScript API появляются почти каждую неделю, что же на прошлой неделе появилось нового, на что вам нужно обратить внимание ;)"
+			}
 		]
 	}
 	],
@@ -80,37 +95,50 @@
 		"articles": [
 			{
 				"title": "Дайджест интересных материалов из мира веб-разработки и IT",
-				"url": "http://habrahabr.ru/company/zfort/blog/231241/"
+				"url": "http://habrahabr.ru/company/zfort/blog/232045/"
 			},
             {
-				"title": "Несколько интересностей и полезностей для веб-разработчика",
-				"url": "http://habrahabr.ru/post/231151/"
-			},
-			{
 				"title": "Полезные материалы для мобильного разработчика",
-				"url": "http://habrahabr.ru/post/231195/"
+				"url": "http://habrahabr.ru/post/232017/"
 			},
 			{
-				"title": "Python-digest. Новости, интересные проекты, статьи и интервью",
-				"url": "http://habrahabr.ru/post/231255/"
+				"title": "Дайджест интересных новостей и материалов из мира PHP",
+				"url": "http://habrahabr.ru/company/zfort/blog/232043/"
 			},
 			{
-				"title": "Top 5 ES.next Features",
-				"url": "http://moduscreate.com/top-5-es6-harmony-features/"
+				"title": "Контроллеры директив в AngularJS",
+				"url": "http://habrahabr.ru/post/232023/"
 			},
 			{
-				"title": "n3-charts: versatile charts for AngularJS",
-				"url": "http://n3-charts.github.io/line-chart/#/"
+				"title": "JavaScript to TypeScript — трудности перевода",
+				"url": "http://habrahabr.ru/post/232015/"
 			},
 			{
-				"title": "An introduction to ES6 classes",
-				"url": "http://javascriptplayground.com/blog/2014/07/introduction-to-es6-classes-tutorial/"
+				"title": "Xibalba: A WebGL First Person Shooter",
+				"url": "http://phoboslab.org/xibalba/?utm_source=html5weekly&utm_medium=email"
+			},
+			{
+				"title": "The mobile playbook",
+				"url": "http://www.themobileplaybook.com/en-us/#/overview"
+			},
+			{
+				"title": "5 JavaScript APIs to Empower Your Mobile Web Pages",
+				"url": "http://www.sitepoint.com/5-javascript-apis-empower-mobile-web-pages/?utm_source=mobilewebweekly&utm_medium=email"
+			},
+			{
+				"title": "AngularJS Unit Testing - For Real, Though",
+				"url": "http://quickleft.com/blog/angularjs-unit-testing-for-real-though?utm_source=javascriptweekly&utm_medium=email"
+			},
+			{
+				"title": "Eloquent JavaScript, second edition",
+				"url": "http://eloquentjavascript.net/?utm_source=javascriptweekly&utm_medium=email"
+			},
+			{
+				"title": "Full Text Search with MongoDB and Node.js",
+				"url": "http://blog.mongohq.com/full-text-search-with-mongodb-and-node-js/?utm_source=dbweekly&utm_medium=email"
 			}
 		]
 	},
-
-
-
 
 	"footer": {
 		"title": "Над проектом трудились:",
@@ -127,14 +155,19 @@
             },
 			{
 				"whoIs": "Рубрика CSS - ",
-				"name": "Andrei Ivashkevich",
-				"email": "mailto:Andrei_Ivashkevich@epam.com"
+				"name": "Iryna Psianina",
+				"email": "mailto:Iryna_Psianina@epam.com"
 			},
 			{
 				"whoIs": "Рубрика User Expirience - ",
 				"name": "Kira Bozhkova",
 				"email": "mailto:Kira_Bozhkova@epam.com"
 			},
+            {
+                "whoIs": "Рубрика Videos - ",
+                "name": "Andrei Ivashkevich",
+                "email": "mailto:Andrei_Ivashkevich@epam.com"
+            },
 			{
 				"whoIs": "Рубрика Intresting & Links - ",
 				"name": "Egor Miasnikov",
