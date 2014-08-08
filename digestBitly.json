@@ -1,0 +1,189 @@
+{	
+	"digestTitle": "Frontend Digest #24",
+	"titleImg": "C:\\Users\\Egor\\projects\\frontendDigest\\img\\main_logo.png",
+	
+	"people": {
+		"title": "Matt Mickiewicz",
+		"img": "C:\\Users\\Egor\\projects\\frontendDigest\\img\\24\\1.jpg",
+		"about": "<p>Мэтт родился в Кракове, Польша. Он создал свой первый сайт в возрасте 14 лет, назывался он Webmaster-Resources.com, который в дальнейшем стал <a href='http://bit.ly/1zTNNOd'>SitePoint.com</a>. В 16 лет он съездил с матерью в Мельбурн, где встретил своего будущего бизнес-партнёра и со-основателя Mark Harbottle. В 16 он уже совершал около 10.000 рекламных сделок между уроками, поэтому он с трудом закончил школу, а в колледж даже не стал поступать.</p><p>В 2008 г. он отделил 99designs от SitePoint, которая выросла в 35млн компанию.</p><p>В 2009 г. Мэтт и Марк аннонсировали <a href='http://bit.ly/1zTNLWF'>Flippa.com</a>, крупнейшую площадку по покупке и продаже веб-сайтов.</p><p>В 2012 г. Мэтт стал сооснователем  DeveloperAuction.com (позже был переименован в <a href='http://bit.ly/1pdvAYy'></a>hired.com), выросшей на 2.7 млн.</p><p>В 2011 г. Мэтт вошёл в тридцатку бизнесменов по мнению Forbes и INC, а 2012 – в тридцатку Smart Companies.</p><p>Он часто выступает на конференциях и семинарах по всему миру. На данный момент живёт в Канаде.</p>"
+	},
+
+	"blocks": [
+	{
+		"title": "CSS",
+		"articles": [
+			{
+				"title": "А как пишут CSS на гитхабе?",
+				"url": "http://bit.ly/XDNWaL",
+				"text": "Как настоящий верстала, вы наверняка сразу же жмете F12, как только видите симпатичный сайт. Однако Chrome Dev Tools не откроют вам всех тайн.. Именно поэтому Марк Отто взял и выложил всю правду про CSS сайта github.com"
+			},
+			{
+				"title": "Красивый газетный лэйаут",
+				"url": "http://bit.ly/1pdvBMb ",
+				"text": "Лэйаут типичной печатной газеты очень привлекателен, но можно ли адекватно сверстать его для веба? На легендарном Элистапарте как раз вышла статья об этом."
+			},
+			{
+				"title": "RTL и прочие ужасы локализации",
+				"url": "http://bit.ly/1upD7nx",
+				"text": "Для кого-то может оказаться новостью, что не все языки предполагают письменность слева направо. А ведь жизнь непредсказуемая штука, глобализация идет семимильными шагами, и вот вы уже завтра можете обнаружить себя на проекте у арабского клиента. Говорите, не может быть такого? Ну что ж, почитайте тогда просто для развития про верстку RTL - right to left."
+			}				
+		]
+	},
+	{
+		"title": "User Experience",
+		"articles": [
+			{
+				"title": "Creating distraction-free reading experiences",
+				"url": "http://bit.ly/1upD7ny",
+				"text": "Adrian Zumbrunnen написал статью о том, как создавать distraction-free reading experience. С самого начала он проводит аналогию чтения с игрой Flappy Bird. Суть в том, что для того, чтобы набирать в этой игре много очков, надо перестать отвлекаться на сами очки и сфокусироваться на игровом процессе — так у игрока будет больше шансов избежать столкновений с препятствиями. Вот так же и с людьми читающими статью, утверждает автор. Плохая типографика, слишком навязчивая реклама, неуместное использование анимации — все это отвлекает читателя раз за разом и заставляет его врезаться в эту чертову зеленую трубу и начинать все заново."
+			},
+			{
+				"title":"Триггеры – «спусковые крючки» принятия решений",
+				"url": "http://bit.ly/1upD636",
+				"text": "Перевод раздела сайта <a href='http://bit.ly/1pdvBMa'>zurb.com</a> о триггерах. Раздел представляет из себя коллекцию действенных психологических мотиваторов, когнитивных законов и поведенческих паттернов, позволяющий исследовать все возможности решения определённых задач, например, «Что нужно для того, чтобы пользователи захотели зарегистрироваться на сайте или совершить другое нужное нам действие?»"
+			},
+			{
+				"title": "Susan Kare, Iconographer (EG8)",
+				"url": "http://bit.ly/1upD7nA",
+				"text": "Интересное выступление от интересного человека. Сьюзан Кэр рисовала первые иконки для Мака в 80-х годах. В своем выступлении она рассказывает о том, как она попала на работу в команду Макинтоша, как рисовала свои знаменитые пиктограммы и затрагивает некоторые ключевые принципы, которыми она руководствовалась в работе."
+			}
+		]
+	},
+	{
+		"title": "Videos",
+		"articles": [
+			{
+				"title": "Используем все возможности Chrome DevTools",
+				"url": "http://bit.ly/1upD637",
+				"text": "Paul Irish расскажет вам как использовать DevTools на полную катушку, в частности, продвинутые техники для профилирования производительности. Рекомендуем к просмотру."
+			},
+			{
+				"title": "Introduce to node streams",
+				"url": "http://bit.ly/1upD7nz",
+				"text": "В этом небольшом туториале вы увидите как работать с потоками в NodeJS. Лектор расскажет как сделать собственные read, write, и transform потоки."
+			},
+			{
+				"title": "Swift for JavaScript Developers",
+				"url": "http://bit.ly/1upD638",
+				"text": "Swift - новый язык программирования от Apple. Долкадчик начинает с различий и схожести меджу языком Swift и JavaScript, и далее углубится в основыные понятия языков, такие как классы, коллбэки, безопастная типизация"
+			}				
+		]
+	},
+	{
+		"title": "Interesting",
+		"articles": [
+			{
+				"title": "СSS3 и мороженное",
+				"url": "http://bit.ly/1upD7nB",
+				"text": "В такие жаркие дни никак не обойтись без мороженного. Советуем вам попробовать новый вкус с CSS3 наполнителем, изготовленного при помощи техники single div."
+			},
+			{
+				"title": "AngularJS vs EmberJS",
+				"url": "http://bit.ly/1upD639",
+				"text": "Небольшой холивар на тему Ангуляр против Эмбер"
+			},
+			{
+				"title": "3 New JavaScript APIs You May Want to Follow",
+				"url": "http://bit.ly/1pdvAYu",
+				"text": "JavaScript API появляются почти каждую неделю, что же на прошлой неделе появилось нового, на что вам нужно обратить внимание ;)"
+			}
+		]
+	}
+	],
+	"links": {
+		"title": "Links",
+		"articles": [
+			{
+				"title": "Дайджест интересных материалов из мира веб-разработки и IT",
+				"url": "http://bit.ly/1pdvBMc"
+			},
+            {
+				"title": "Полезные материалы для мобильного разработчика",
+				"url": "http://bit.ly/1pdvAYv"
+			},
+			{
+				"title": "Дайджест интересных новостей и материалов из мира PHP",
+				"url": "http://bit.ly/1pdvBMd"
+			},
+			{
+				"title": "Контроллеры директив в AngularJS",
+				"url": "http://bit.ly/1pdvAYw"
+			},
+			{
+				"title": "JavaScript to TypeScript — трудности перевода",
+				"url": "http://bit.ly/1pdvAYx"
+			},
+			{
+				"title": "Xibalba: A WebGL First Person Shooter",
+				"url": "http://bit.ly/1pdvBMe"
+			},
+			{
+				"title": "The mobile playbook",
+				"url": "http://bit.ly/1pdvAYz"
+			},
+			{
+				"title": "5 JavaScript APIs to Empower Your Mobile Web Pages",
+				"url": "http://bit.ly/1pdvAYA"
+			},
+			{
+				"title": "AngularJS Unit Testing - For Real, Though",
+				"url": "http://bit.ly/1pdvBMf"
+			},
+			{
+				"title": "Eloquent JavaScript, second edition",
+				"url": "http://bit.ly/1pdvAYB"
+			},
+			{
+				"title": "Full Text Search with MongoDB and Node.js",
+				"url": "http://bit.ly/1pdvBMg"
+			}
+		]
+	},
+
+	"footer": {
+		"title": "Над проектом трудились:",
+		"team": [
+			{
+				"whoIs": "Координатор проекта - ",
+				"name": "Siarhei Mikhailau",
+				"email": "mailto:Siarhei_Mikhailau@epam.com"
+			},
+            {
+                "whoIs": "Рубрика PEOPLE - ",
+                "name": "Veranika Baradzina",
+                "email": "mailto:Veranika_Baradzina@epam.com"
+            },
+			{
+				"whoIs": "Рубрика CSS - ",
+				"name": "Iryna Psianina",
+				"email": "mailto:Iryna_Psianina@epam.com"
+			},
+			{
+				"whoIs": "Рубрика User Expirience - ",
+				"name": "Kira Bozhkova",
+				"email": "mailto:Kira_Bozhkova@epam.com"
+			},
+            {
+                "whoIs": "Рубрика Videos - ",
+                "name": "Andrei Ivashkevich",
+                "email": "mailto:Andrei_Ivashkevich@epam.com"
+            },
+			{
+				"whoIs": "Рубрика Intresting & Links - ",
+				"name": "Egor Miasnikov",
+				"email": "mailto:Egor_Miasnikov@epam.com"
+			},
+			{
+				"whoIs": "Main logo - ",
+				"name": "Aliaksandr Hudkou",
+				"email": "mailto:Aliaksandr_Hudkou@epam.com"
+			},
+			{
+				"whoIs": "Email templater - ",
+				"name": "Ihar Daineka",
+				"email": "mailto:Ihar_Daineka@epam.com"
+			}
+		]
+	} 
+}
+
