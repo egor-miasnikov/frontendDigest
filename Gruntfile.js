@@ -24,7 +24,7 @@ module.exports = function(grunt) {
     	}
 	});
 
-    grunt.loadNpmTasks('grunt-execute');
+    	grunt.loadNpmTasks('grunt-execute');
 	grunt.loadNpmTasks('grunt-contrib-jade');
 	
 	grunt.registerTask('default', ['execute','jade']);
